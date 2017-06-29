@@ -15,6 +15,7 @@ build:
   verbosity: minimal
 
 test_script:
+  - echo %configuration%
   - .\scripts\appveyor-tests.bat
 
 on_finish:
